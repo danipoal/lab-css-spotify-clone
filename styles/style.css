@@ -6,3 +6,110 @@ Green: #00B172
 White: #FFF
 
 */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.lista-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  gap: 32px;
+  font-size: 1.2rem;
+}
+.lista-items{
+    font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.imageHeader {
+  width: 200px;
+  display: inline-block;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  background-image: url("../images/landing.jpg");
+  height: 900px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  font-size: 3.2rem;
+}
+.text {
+  margin: 9px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.container2{
+
+    height: 500px;
+    
+}
+.title2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    -moz-text-decoration-color: #00B172;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px; /* Aleja el subrayado del texto */
+}
+.container2-2{
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.items2{
+    text-align: center;
+}
+.icono{
+    width: 130px;
+}
+.icon-title{
+    color: #00B172;
+}
+.icon-text{
+    font-size: 1.5rem;
+}
+.container3{
+    background-color: #00B172;
+    height: 800px;
+    margin: auto 30px;
+    color: white;
+    padding: 40px;
+    
+}
+.container3-3{
+    display: flex;
+    justify-content: space-around;
+}
+.container3-3-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
+}
+.imgSpotyIcon{
+    height: 80px;
+    align-self: center;
+}
+.imgSpotyApp{
+    width: 400px;
+}
