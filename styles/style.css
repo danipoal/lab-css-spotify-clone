@@ -10,10 +10,18 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  margin: 20px;
+    height: 100px;
+  margin:0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #fff;
+
+  position: fixed;
+  z-index: 1000;
+  top: 0; /* Lo posiciona en la parte superior */
+  left: 0;
+  right: 0;
 }
 
 .lista-container {
@@ -36,6 +44,7 @@ a {
   display: inline-block;
 }
 .container1 {
+    margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,10 +115,60 @@ a {
     justify-content: space-around;
     height: 700px;
 }
+.titulo2{
+    margin-left: 8vw;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+.title-item{
+    font-size: 2rem;
+}
+.p-item{
+    font-size: 1.5rem;
+}
 .imgSpotyIcon{
-    height: 80px;
+    height: 140px;
     align-self: center;
 }
 .imgSpotyApp{
     width: 400px;
+}
+@media (max-width: 576px) {
+    /* Estilos para teléfonos */
+
+    /*Para el segundo contenedor */
+    .container2{
+        height: fit-content;
+    }
+    .container2-2{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    /*Para el tercer contenedor*/
+    .container3{
+        height: fit-content;
+    }
+    .container3-3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgSpotyApp{
+        margin-top: 20px;
+        width: 250px;
+    }
+}
+@media (max-width: 1100px){
+    .container3{
+        height: fit-content;
+    }
+    .container3-3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgSpotyApp{
+        margin-top: 20px;
+        width: 250px;
+    }
 }
